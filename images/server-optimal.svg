@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">Оптимальный сервер</title><desc id="desc">Два серверных блока с дополнительными индикаторами.</desc>
+  <rect width="480" height="240" rx="12" fill="#171717"/>
+  <circle cx="393" cy="48" r="36" fill="#292929"/>
+  <circle cx="75" cy="191" r="42" fill="#222"/>
+  <rect x="116" y="48" width="248" height="145" rx="8" fill="#303030" stroke="#777" stroke-width="2"/>
+  <g>
+    <rect x="130" y="62" width="220" height="51" rx="4" fill="#202020" stroke="#555"/>
+    <circle cx="148" cy="87" r="6" fill="#ededed"/>
+    <rect x="165" y="78" width="82" height="18" rx="3" fill="#505050"/>
+    <path d="M267 75h12v24h-12z M288 75h12v24h-12z M309 75h12v24h-12z M330 75h8v24h-8z" fill="#919191"/>
+  </g>
+  <g>
+    <rect x="130" y="126" width="220" height="51" rx="4" fill="#202020" stroke="#555"/>
+    <circle cx="148" cy="151" r="6" fill="#ededed"/>
+    <rect x="165" y="142" width="82" height="18" rx="3" fill="#505050"/>
+    <path d="M267 139h12v24h-12z M288 139h12v24h-12z M309 139h12v24h-12z M330 139h8v24h-8z" fill="#919191"/>
+  </g>
+  <path d="M139 205h202" stroke="#5a5a5a" stroke-width="4" stroke-linecap="round"/>
+  <text x="240" y="226" font-family="Arial,sans-serif" font-size="12" fill="#b0b0b0" text-anchor="middle" letter-spacing="2">BALANCED POWER</text>
+</svg>

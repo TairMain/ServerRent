@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тарифы — ServerRent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="brand">
+                <h1 class="logo">ServerRent</h1>
+                <p class="tagline">Аренда серверов для сайтов и проектов</p>
+            </div>
+            <nav aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a class="active" href="catalog.html">Тарифы</a>
+                <a href="service.html">Об услуге</a>
+                <a href="order.html">Заявка</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-intro">
+            <h2>Каталог тарифов</h2>
+            <p>Выберите подходящий вариант. Чем выше тариф, тем больше ресурсов доступно проекту.</p>
+        </section>
+
+        <section class="catalog-section">
+            <div class="tariff-list">
+                <article class="tariff">
+                    <img class="tariff-image" src="images/server-basic.svg" alt="Компактный базовый сервер">
+                    <h3 class="tariff-title">Базовый</h3>
+                    <p class="tariff-description">Подходит для небольшого сайта, учебной работы или первого проекта.</p>
+                    <ul class="tariff-specs">
+                        <li>Процессор: 1 ядро AMD Ryzen, до 4,3 ГГц</li>
+                        <li>ОЗУ: 1 ГБ DDR4/DDR5</li>
+                        <li>Диск: 10 ГБ NVMe SSD</li>
+                        <li>Базы MySQL: 3 шт. (phpMyAdmin)</li>
+                    </ul>
+                    <div class="tariff-footer">
+                        <p class="price">199 ₽<span>/мес.</span></p>
+                        <a class="button" href="order.html?tariff=basic">Выбрать</a>
+                    </div>
+                </article>
+
+                <article class="tariff">
+                    <img class="tariff-image" src="images/server-optimal.svg" alt="Два блока оптимального сервера">
+                    <h3 class="tariff-title">Оптимальный</h3>
+                    <p class="tariff-description">Хороший выбор для нескольких сайтов и проектов со средней нагрузкой.</p>
+                    <ul class="tariff-specs">
+                        <li>Процессор: 2 виртуальных ядра AMD Ryzen</li>
+                        <li>ОЗУ: 4 ГБ DDR4/DDR5</li>
+                        <li>Диск: 30 ГБ NVMe SSD</li>
+                        <li>Базы MySQL: 5 шт. (phpMyAdmin)</li>
+                    </ul>
+                    <div class="tariff-footer">
+                        <p class="price">399 ₽<span>/мес.</span></p>
+                        <a class="button" href="order.html?tariff=optimal">Выбрать</a>
+                    </div>
+                </article>
+
+                <article class="tariff">
+                    <img class="tariff-image" src="images/server-boost.svg" alt="Стойка из трёх серверов Буст">
+                    <h3 class="tariff-title">Буст</h3>
+                    <p class="tariff-description">Для более требовательных проектов, которым нужны дополнительные ресурсы.</p>
+                    <ul class="tariff-specs">
+                        <li>Процессор: 4 виртуальных ядра AMD Ryzen</li>
+                        <li>ОЗУ: 8 ГБ DDR4/DDR5</li>
+                        <li>Диск: 60 ГБ NVMe SSD</li>
+                        <li>Базы MySQL: 10 шт. (phpMyAdmin)</li>
+                    </ul>
+                    <div class="tariff-footer">
+                        <p class="price">799 ₽<span>/мес.</span></p>
+                        <a class="button" href="order.html?tariff=boost">Выбрать</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer><div class="container"><p>&copy; 2026 ServerRent. Учебный проект.</p></div></footer>
+</body>
+</html>

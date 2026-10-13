@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заявка — ServerRent</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="brand">
+                <h1 class="logo">ServerRent</h1>
+                <p class="tagline">Аренда серверов для сайтов и проектов</p>
+            </div>
+            <nav aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Тарифы</a>
+                <a href="service.html">Об услуге</a>
+                <a class="active" href="order.html">Заявка</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-intro">
+            <h2>Оформление заявки</h2>
+            <p>Заполните форму и выберите тариф, который вам подходит.</p>
+        </section>
+
+        <section>
+            <form id="order-form">
+                <label for="name">Ваше имя:</label>
+                <input id="name" name="name" type="text" placeholder="Введите имя" required>
+
+                <label for="contact">Email или Telegram:</label>
+                <input id="contact" name="contact" type="text" placeholder="Как с вами связаться" required>
+
+                <label for="tariff">Тариф:</label>
+                <select id="tariff" name="tariff" required>
+                    <option value="basic">Базовый — 199 ₽/мес.</option>
+                    <option value="optimal">Оптимальный — 399 ₽/мес.</option>
+                    <option value="boost">Буст — 799 ₽/мес.</option>
+                </select>
+
+                <label for="comment">Комментарий:</label>
+                <textarea id="comment" name="comment" placeholder="Для чего нужен сервер (необязательно)"></textarea>
+
+                <button type="submit">Отправить заявку</button>
+                <p id="form-message" class="note" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer><div class="container"><p>&copy; 2026 ServerRent. Учебный проект.</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Об услуге — ServerRent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="brand">
+                <h1 class="logo">ServerRent</h1>
+                <p class="tagline">Аренда серверов для сайтов и проектов</p>
+            </div>
+            <nav aria-label="Основная навигация">
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Тарифы</a>
+                <a class="active" href="service.html">Об услуге</a>
+                <a href="order.html">Заявка</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-intro">
+            <h2>Об услуге аренды сервера</h2>
+            <p>Аренда сервера позволяет хранить файлы сайта и запускать приложения на удалённом компьютере. Тариф выбирают в зависимости от нагрузки и размера проекта.</p>
+        </section>
+
+        <section id="basic" class="detail-card">
+            <img src="images/server-basic.svg" alt="Иллюстрация тарифа Базовый">
+            <div>
+                <h2>Базовый</h2>
+                <p class="price">199 ₽/мес.</p>
+                <p>Подходит для простого сайта, учебной работы или небольшого тестового проекта.</p>
+                <ul>
+                    <li>1 ядро AMD Ryzen, до 4,3 ГГц</li>
+                    <li>1 ГБ оперативной памяти DDR4/DDR5</li>
+                    <li>10 ГБ NVMe SSD</li>
+                    <li>3 базы MySQL с phpMyAdmin</li>
+                </ul>
+                <a class="button" href="order.html?tariff=basic">Оформить заявку</a>
+            </div>
+        </section>
+
+        <section id="optimal" class="detail-card">
+            <img src="images/server-optimal.svg" alt="Иллюстрация тарифа Оптимальный">
+            <div>
+                <h2>Оптимальный</h2>
+                <p class="price">399 ₽/мес.</p>
+                <p>Больше ресурсов для сайта с дополнительными страницами, файлами или базами данных.</p>
+                <ul>
+                    <li>2 виртуальных ядра AMD Ryzen</li>
+                    <li>4 ГБ оперативной памяти DDR4/DDR5</li>
+                    <li>30 ГБ NVMe SSD</li>
+                    <li>5 баз MySQL с phpMyAdmin</li>
+                </ul>
+                <a class="button" href="order.html?tariff=optimal">Оформить заявку</a>
+            </div>
+        </section>
+
+        <section id="boost" class="detail-card">
+            <img src="images/server-boost.svg" alt="Иллюстрация тарифа Буст">
+            <div>
+                <h2>Буст</h2>
+                <p class="price">799 ₽/мес.</p>
+                <p>Самый мощный из представленных тарифов — для проектов, которым нужно больше памяти и дискового пространства.</p>
+                <ul>
+                    <li>4 виртуальных ядра AMD Ryzen</li>
+                    <li>8 ГБ оперативной памяти DDR4/DDR5</li>
+                    <li>60 ГБ NVMe SSD</li>
+                    <li>10 баз MySQL с phpMyAdmin</li>
+                </ul>
+                <a class="button" href="order.html?tariff=boost">Оформить заявку</a>
+            </div>
+        </section>
+    </main>
+
+    <footer><div class="container"><p>&copy; 2026 ServerRent. Учебный проект.</p></div></footer>
+</body>
+</html>

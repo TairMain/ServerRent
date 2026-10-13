@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" role="img" aria-labelledby="title desc">
+  <title id="title">Сервер Буст</title><desc id="desc">Три мощных серверных блока в стойке.</desc>
+  <rect width="480" height="240" rx="12" fill="#171717"/>
+  <circle cx="395" cy="44" r="42" fill="#2a2a2a"/>
+  <circle cx="70" cy="194" r="48" fill="#222"/>
+  <rect x="151" y="25" width="178" height="184" rx="8" fill="#303030" stroke="#888" stroke-width="2"/>
+  <g fill="#1d1d1d" stroke="#626262">
+    <rect x="164" y="38" width="152" height="48" rx="4"/>
+    <rect x="164" y="92" width="152" height="48" rx="4"/>
+    <rect x="164" y="146" width="152" height="48" rx="4"/>
+  </g>
+  <g fill="#dedede">
+    <circle cx="178" cy="62" r="5"/><circle cx="178" cy="116" r="5"/><circle cx="178" cy="170" r="5"/>
+  </g>
+  <g fill="#747474">
+    <rect x="191" y="52" width="44" height="20" rx="3"/><rect x="191" y="106" width="44" height="20" rx="3"/><rect x="191" y="160" width="44" height="20" rx="3"/>
+  </g>
+  <g fill="#a0a0a0">
+    <path d="M246 49h8v26h-8z M260 49h8v26h-8z M274 49h8v26h-8z M288 49h8v26h-8z"/>
+    <path d="M246 103h8v26h-8z M260 103h8v26h-8z M274 103h8v26h-8z M288 103h8v26h-8z"/>
+    <path d="M246 157h8v26h-8z M260 157h8v26h-8z M274 157h8v26h-8z M288 157h8v26h-8z"/>
+  </g>
+  <path d="M133 218h214" stroke="#777" stroke-width="4" stroke-linecap="round"/>
+  <text x="240" y="234" font-family="Arial,sans-serif" font-size="12" fill="#c8c8c8" text-anchor="middle" letter-spacing="3">HIGH PERFORMANCE</text>
+</svg>

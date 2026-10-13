@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServerRent — аренда серверов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="brand">
+                <h1 class="logo">ServerRent</h1>
+                <p class="tagline">Аренда серверов для сайтов и проектов</p>
+            </div>
+            <nav aria-label="Основная навигация">
+                <a class="active" href="index.html">Главная</a>
+                <a href="catalog.html">Тарифы</a>
+                <a href="service.html">Об услуге</a>
+                <a href="order.html">Заявка</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Выберите сервер для своего проекта</h2>
+            <p>Три простых тарифа для небольших сайтов, учебных работ и более требовательных проектов. Можно начать с базового варианта и перейти на более мощный сервер позже.</p>
+            <a class="button" href="catalog.html">Посмотреть тарифы</a>
+        </section>
+
+        <section>
+            <h2>Почему выбирают ServerRent?</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>NVMe SSD</h3>
+                    <p>Быстрое хранилище для файлов сайта и проекта.</p>
+                </div>
+                <div class="feature">
+                    <h3>Разные тарифы</h3>
+                    <p>Можно выбрать ресурсы под свои задачи и бюджет.</p>
+                </div>
+                <div class="feature">
+                    <h3>Базы MySQL</h3>
+                    <p>Базы данных с возможностью управления через phpMyAdmin.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Наши тарифы</h2>
+            <p>Характеристики увеличиваются от простого тарифа к более мощному.</p>
+            <div class="tariff-list">
+                <article class="tariff">
+                    <img class="tariff-image" src="images/server-basic.svg" alt="Иллюстрация базового сервера">
+                    <h3 class="tariff-title">Базовый</h3>
+                    <p class="tariff-description">Для небольших сайтов и учебных проектов.</p>
+                    <ul class="tariff-specs">
+                        <li>1 ядро AMD Ryzen</li>
+                        <li>1 ГБ ОЗУ</li>
+                        <li>10 ГБ NVMe SSD</li>
+                    </ul>
+                    <div class="tariff-footer">
+                        <p class="price">199 ₽<span>/мес.</span></p>
+                        <a class="button" href="order.html?tariff=basic">Выбрать</a>
+                    </div>
+                </article>
+                <article class="tariff">
+                    <img class="tariff-image" src="images/server-optimal.svg" alt="Иллюстрация оптимального сервера">
+                    <h3 class="tariff-title">Оптимальный</h3>
+                    <p class="tariff-description">Больше памяти и места для сайтов со средней нагрузкой.</p>
+                    <ul class="tariff-specs">
+                        <li>2 виртуальных ядра</li>
+                        <li>4 ГБ ОЗУ</li>
+                        <li>30 ГБ NVMe SSD</li>
+                    </ul>
+                    <div class="tariff-footer">
+                        <p class="price">399 ₽<span>/мес.</span></p>
+                        <a class="button" href="order.html?tariff=optimal">Выбрать</a>
+                    </div>
+                </article>
+                <article class="tariff">
+                    <img class="tariff-image" src="images/server-boost.svg" alt="Иллюстрация мощного сервера Буст">
+                    <h3 class="tariff-title">Буст</h3>
+                    <p class="tariff-description">Для проектов с повышенными требованиями к ресурсам.</p>
+                    <ul class="tariff-specs">
+                        <li>4 виртуальных ядра</li>
+                        <li>8 ГБ ОЗУ</li>
+                        <li>60 ГБ NVMe SSD</li>
+                    </ul>
+                    <div class="tariff-footer">
+                        <p class="price">799 ₽<span>/мес.</span></p>
+                        <a class="button" href="order.html?tariff=boost">Выбрать</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container"><p>&copy; 2026 ServerRent. Учебный проект.</p></div>
+    </footer>
+</body>
+</html>
