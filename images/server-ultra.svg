@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+<title id="title">Ультра сервер</title>
+<desc id="desc">Стилизованная чёрно-серая иллюстрация сервера с 6 модулями.</desc>
+<rect width="320" height="180" rx="8" fill="#151515"/>
+<ellipse cx="160" cy="166.0" rx="89.0" ry="6" fill="#080808"/>
+<g transform="translate(83.0,19.5)">
+  <rect width="154" height="21" rx="3" fill="#292929" stroke="#666666" stroke-width="1.5"/>
+  <rect x="8" y="5" width="116" height="11" rx="1.5" fill="#151515" stroke="#454545" stroke-width="1"/>
+  <path d="M 16 8 h 94 M 16 12 h 94" stroke="#555555" stroke-width="1"/>
+  <circle cx="136" cy="10.5" r="3" fill="#c8c8c8"/>
+  <circle cx="125" cy="10.5" r="2" fill="#777777"/>
+</g><g transform="translate(83.0,43.5)">
+  <rect width="154" height="21" rx="3" fill="#292929" stroke="#666666" stroke-width="1.5"/>
+  <rect x="8" y="5" width="116" height="11" rx="1.5" fill="#151515" stroke="#454545" stroke-width="1"/>
+  <path d="M 16 8 h 94 M 16 12 h 94" stroke="#555555" stroke-width="1"/>
+  <circle cx="136" cy="10.5" r="3" fill="#c8c8c8"/>
+  <circle cx="125" cy="10.5" r="2" fill="#777777"/>
+</g><g transform="translate(83.0,67.5)">
+  <rect width="154" height="21" rx="3" fill="#292929" stroke="#666666" stroke-width="1.5"/>
+  <rect x="8" y="5" width="116" height="11" rx="1.5" fill="#151515" stroke="#454545" stroke-width="1"/>
+  <path d="M 16 8 h 94 M 16 12 h 94" stroke="#555555" stroke-width="1"/>
+  <circle cx="136" cy="10.5" r="3" fill="#c8c8c8"/>
+  <circle cx="125" cy="10.5" r="2" fill="#777777"/>
+</g><g transform="translate(83.0,91.5)">
+  <rect width="154" height="21" rx="3" fill="#292929" stroke="#666666" stroke-width="1.5"/>
+  <rect x="8" y="5" width="116" height="11" rx="1.5" fill="#151515" stroke="#454545" stroke-width="1"/>
+  <path d="M 16 8 h 94 M 16 12 h 94" stroke="#555555" stroke-width="1"/>
+  <circle cx="136" cy="10.5" r="3" fill="#c8c8c8"/>
+  <circle cx="125" cy="10.5" r="2" fill="#777777"/>
+</g><g transform="translate(83.0,115.5)">
+  <rect width="154" height="21" rx="3" fill="#292929" stroke="#666666" stroke-width="1.5"/>
+  <rect x="8" y="5" width="116" height="11" rx="1.5" fill="#151515" stroke="#454545" stroke-width="1"/>
+  <path d="M 16 8 h 94 M 16 12 h 94" stroke="#555555" stroke-width="1"/>
+  <circle cx="136" cy="10.5" r="3" fill="#c8c8c8"/>
+  <circle cx="125" cy="10.5" r="2" fill="#777777"/>
+</g><g transform="translate(83.0,139.5)">
+  <rect width="154" height="21" rx="3" fill="#292929" stroke="#666666" stroke-width="1.5"/>
+  <rect x="8" y="5" width="116" height="11" rx="1.5" fill="#151515" stroke="#454545" stroke-width="1"/>
+  <path d="M 16 8 h 94 M 16 12 h 94" stroke="#555555" stroke-width="1"/>
+  <circle cx="136" cy="10.5" r="3" fill="#c8c8c8"/>
+  <circle cx="125" cy="10.5" r="2" fill="#777777"/>
+</g>
+<path d="M 22 156 H 298" stroke="#303030" stroke-width="1"/>
+<text x="160" y="171" fill="#888888" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">SERVER RENT</text>
+</svg>
